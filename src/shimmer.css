@@ -1,0 +1,117 @@
+.shimmer-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 32%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .shimmer-vote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .shimmer-line {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+    margin: 5px 0;
+  }
+  
+  .shimmer-line.short {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .shimmer-line.title {
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shimmer-line.image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .shimmer-line.description {
+    width: 90%;
+    height: 15px;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  .shimmer-content-section {
+    padding: 15px;
+    flex-grow: 1;
+  }
+
+@media  screen and (max-width: 1024px) {
+  .container{
+    padding: 20px 55px;
+  }
+  .shimmer-card {
+    width: 40%;
+  }
+  .shimmer-line.image {
+    width: 100%;
+    height: 200px;
+  }
+
+  
+}
+@media screen and (max-width: 768px) {
+  .container{
+    padding: 20px 85px;
+    }
+    .shimmer-card {
+      width: 100%;
+    }
+    .shimmer-line.image {
+      width: 100%;
+      height: 200px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  .container{
+      padding: 20px 40px;
+    }
+    .shimmer-card {
+      width: 100%;
+    }
+    .shimmer-line.image {
+      width: 90%;
+      height: 180px;
+    }
+}
+@media screen and (max-width: 468px) {
+  .container{
+      padding: 20px 40px;
+    }
+    .shimmer-card {
+      width: 100%;
+    }
+    .shimmer-line.image {
+      width: 90%;
+      height: 140px;
+    }
+}
