@@ -5,8 +5,8 @@
   gap: 20px;
   padding: 20px 110px;
   height: auto;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 .reddit-meme-card {
   display: flex;
@@ -128,6 +128,8 @@
 @media  screen and (max-width: 640px) {
   .container{
     padding: 20px 80px;
+     justify-content: center;
+  align-items: center;
   }
 
   .reddit-meme-card {
@@ -142,6 +144,9 @@
 @media screen and (max-width: 468px) {
   .container{
     padding: 20px 40px;
+     justify-content: center;
+  align-items: center;
+
   }
   .title{
     height: 60px;
