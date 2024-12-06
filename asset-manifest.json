@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Infinite-Scrolling/static/css/main.e796d4dc.css",
+    "main.css": "/Infinite-Scrolling/static/css/main.125c3db3.css",
     "main.js": "/Infinite-Scrolling/static/js/main.559b00f4.js",
     "static/js/453.84822ba9.chunk.js": "/Infinite-Scrolling/static/js/453.84822ba9.chunk.js",
     "index.html": "/Infinite-Scrolling/index.html",
-    "main.e796d4dc.css.map": "/Infinite-Scrolling/static/css/main.e796d4dc.css.map",
+    "main.125c3db3.css.map": "/Infinite-Scrolling/static/css/main.125c3db3.css.map",
     "main.559b00f4.js.map": "/Infinite-Scrolling/static/js/main.559b00f4.js.map",
     "453.84822ba9.chunk.js.map": "/Infinite-Scrolling/static/js/453.84822ba9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e796d4dc.css",
+    "static/css/main.125c3db3.css",
     "static/js/main.559b00f4.js"
   ]
 }
